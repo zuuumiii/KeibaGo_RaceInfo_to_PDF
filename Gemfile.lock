@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    combine_pdf (1.0.26)
+      matrix
+      ruby-rc4 (>= 0.1.5)
+    grover (1.1.5)
+      combine_pdf (~> 1.0)
+      nokogiri (~> 1.0)
+    matrix (0.4.2)
+    nokogiri (1.16.0-x86_64-linux)
+      racc (~> 1.4)
+    racc (1.7.3)
+    ruby-rc4 (0.1.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  combine_pdf
+  grover
+
+RUBY VERSION
+   ruby 3.1.4p223
+
+BUNDLED WITH
+   2.3.26
