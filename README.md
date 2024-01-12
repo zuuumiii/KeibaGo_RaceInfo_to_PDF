@@ -6,7 +6,7 @@ keiba.go.jp の出走表を開催日ごとに全レースを1つのPDFファイ�
 # 導入
 docker-composeを使用します。
 
-bilid からの up
+build からの up
 ```
 $ docker-compose build
 $ docker-compose up
